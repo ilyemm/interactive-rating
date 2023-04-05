@@ -39,10 +39,10 @@ body
 {
     /* background-color: var(--dark-blue); */
     background: linear-gradient(to bottom, hsla(213, 19%, 18%, .6), hsla(213, 19%, 18%, .3));
-    width: 30rem;
-    height: 32rem;
+    width: 34rem;
+    height: 33rem;
     padding: 3rem;
-    border-radius: 2rem;
+    border-radius: 2.5rem;
 }
 
 /*  initial landing is here */
@@ -66,13 +66,15 @@ body
 /* individual radius */
 .star-icon
 {
-    width: 3rem;
+    width: 4.5rem;
+    height: 4.5rem;
     border-radius: 100%;
+    margin-bottom: 2.5rem;
 }
 
 .star-icon img
 {
-    width: 1rem;
+    width: 1.5rem;
 }
 
 .selected-text
@@ -141,15 +143,20 @@ body
     color: var(--white);
     font-weight: 500;
     width: 100%;
-    height: 5rem;
+    height: 4.5rem;
     border-radius: 2.5rem;
     background-color: var(--orange);
     letter-spacing: .25rem;
     border-style: none;
 }
 
+.submit-button:hover
+{
+    color: var(--orange);
+    background-color: var(--white);
+}
+
 .rating-button:active,
-.submit-button:active,
 .selected-button,
 .selected-button:hover
 {

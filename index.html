@@ -16,6 +16,11 @@
 
       $(".submit-button").click(function() {
         output = $(".rating-scale").find('.selected-button').val();
+        if (output === undefined)
+        {
+          alert("Please submit a value before you submit!");
+          return false;
+        }
         $(".selected-value").text(output);
 
         $(".landing-page").css("display", "none");
