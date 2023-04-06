@@ -30,7 +30,7 @@ Users should be able to:
 ### Screenshot
 
 ![](./assets/images/desktop-view.PNG)
-![](./assets/images/desktop-active.PNG)
+![](./assets/images/desktop-active.png)
 ![](./assets/images/desktop-thank-you.PNG)
 
 ### Links
